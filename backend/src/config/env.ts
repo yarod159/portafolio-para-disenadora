@@ -1,6 +1,5 @@
 import dotenv from 'dotenv';
 
-// Cargar variables de entorno INMEDIATAMENTE
 dotenv.config();
 
 export const config = {
