@@ -1,5 +1,6 @@
 
 import React from 'react';
+import Image from '@/public/imgs/perfil.jpg';
 
 const About: React.FC = () => {
   return (
@@ -9,7 +10,7 @@ const About: React.FC = () => {
           <div className="relative">
             <div className="relative z-10 w-full aspect-square md:aspect-auto md:h-[600px] bg-gray-200 rounded-[3rem] overflow-hidden shadow-2xl">
               <img 
-                src="../public/imgs/perfil.jpg" 
+                src={Image} 
                 alt="Solo - Social Media Designer" 
                 className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-1000"
               />
