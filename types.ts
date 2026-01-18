@@ -8,10 +8,10 @@ export interface Service {
 
 export interface PortfolioItem {
   id: string;
-  type: 'post' | 'story' | 'video';
+  type: 'post' | 'historia' | 'video';
   imageUrl: string;
   title: string;
-   videoUrl?: string; 
+  videoUrl?: string; 
   category: string;
 }
 

@@ -2,18 +2,8 @@
 import React, { useState, useEffect } from 'react';
 import { 
   Instagram, 
-  Video, 
-  Layers, 
-  Zap, 
-  ChevronRight, 
-  Mail, 
-  MessageCircle, 
-  ArrowRight,
   Menu,
   X,
-  Play,
-  CheckCircle2,
-  Sparkles
 } from 'lucide-react';
 import Hero from './components/Hero';
 import Services from './components/Services';
@@ -23,7 +13,7 @@ import About from './components/About';
 import Testimonials from './components/Testimonials';
 import Contact from './components/Contact';
 import ContentAssistant from './components/ContentAssistant';
-
+import Logo from '@/public/imgs/logo.png';
 const App: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
@@ -120,10 +110,9 @@ const App: React.FC = () => {
       <footer className="bg-white border-t py-12 px-6">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-8 text-sm text-gray-500">
           <div className="flex items-center gap-2 w-28">
-           <img src="/public/imgs/logo.png" alt="" />
+           <img src={Logo} alt="" />
           </div>
          
-          <p>Creado por Ing.Asdrúbal Morales</p>
         </div>
       </footer>
     </div>

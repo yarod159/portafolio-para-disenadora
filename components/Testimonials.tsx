@@ -1,14 +1,14 @@
 
 import React from 'react';
 import { Testimonial } from '../types';
-
+import mamutLogo from '@/public/imgs/mamut-logo.png';
 const testimonials: Testimonial[] = [
   {
     id: '1',
     name: 'Bolsos Mamut',
     role: 'Empresa de Bolsos',
     content: "Gracias al rediseño de mi perfil de Instagram, mi marca ahora se ve profesional y coherente. Pasé de tener un feed desordenado a uno que realmente conecta con mis clientes y genera más pedidos.",
-    avatar: '../public/imgs/mamut-logo.png'
+    avatar: mamutLogo
   },
   {
     id: '2',

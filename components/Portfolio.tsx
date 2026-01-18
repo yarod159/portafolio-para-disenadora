@@ -63,7 +63,7 @@ const items: PortfolioItem[] = [
   },
   {
     id: '9',
-    type: 'story',
+    type: 'historia',
     imageUrl: '/imgs/batido.jpg',
     title: 'Product Launch',
     category: 'Historia'
@@ -71,7 +71,7 @@ const items: PortfolioItem[] = [
 ];
 
 const Portfolio: React.FC = () => {
-  const [filter, setFilter] = useState<'all' | 'post' | 'video' | 'story'>('all');
+  const [filter, setFilter] = useState<'all' | 'post' | 'video' | 'historia'>('all');
   const [activeVideo, setActiveVideo] = useState<string | null>(null);
 
   const filteredItems =
@@ -94,7 +94,7 @@ const Portfolio: React.FC = () => {
 
           <div className="flex bg-white p-1 rounded-full shadow-sm border border-gray-100 translate-x-6 sm:translate-x-0">
 
-            {(['all', 'post', 'video', 'story'] as const).map(f => (
+            {(['all', 'post', 'video', 'historia'] as const).map(f => (
               <button
                 key={f}
                 onClick={() => setFilter(f)}

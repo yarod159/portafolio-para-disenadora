@@ -1,13 +1,14 @@
 
 import React, { useState, useRef } from 'react';
 import { BeforeAfterPair } from '../types';
-
+import before from '@/public/imgs/original.jpg';
+import after from '@/public/imgs/mejorado.jpg';
 const data: BeforeAfterPair[] = [
   {
     id: '1',
     title: 'Fashion Portrait Retouching',
-    before: '../public/imgs/original.jpg',
-    after: '../public/imgs/mejorado.jpg',
+    before: before,
+    after: after,
   }
 ];
 
