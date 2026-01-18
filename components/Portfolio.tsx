@@ -92,13 +92,13 @@ const Portfolio: React.FC = () => {
             </h3>
           </div>
 
-          <div className="flex bg-white p-1 rounded-full shadow-sm border border-gray-100 translate-x-6 sm:translate-x-0">
+          <div className="relative left-4  flex items-center  justify-center  bg-white p-2  rounded-full shadow-sm border border-gray-100">
 
             {(['all', 'post', 'video', 'historia'] as const).map(f => (
               <button
                 key={f}
                 onClick={() => setFilter(f)}
-                className={`px-6 py-2 rounded-full text-sm font-bold transition-all capitalize ${
+                className={`px-3 py-2 rounded-full text-sm font-bold transition-all capitalize ${
                   filter === f
                     ? 'bg-black text-white'
                     : 'text-gray-500 hover:text-black'
