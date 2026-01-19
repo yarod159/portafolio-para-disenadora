@@ -37,7 +37,7 @@ const Services: React.FC = () => {
         <div className="text-center max-w-2xl mx-auto mb-16">
           <h2 className="text-sm font-black uppercase tracking-[0.2em] text-purple-600 mb-4">Lo que hago</h2>
           <h3 className="text-4xl md:text-5xl font-black tracking-tight text-slate-900 mb-6">
-            Todo lo que necesitas para un <span className="font-serif italic">de clase mundial</span> presencia social.
+            Todo lo que necesitas para una <span className="font-serif italic">presencia digital </span> de clase mundial.
           </h3>
           <p className="text-gray-500 text-lg">
              Ofrezco soluciones de diseño personalizadas que no solo son bonitas, sino que también fomentan el compromiso y fidelizan a los clientes con la marca.

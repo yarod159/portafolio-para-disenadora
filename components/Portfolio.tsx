@@ -88,7 +88,7 @@ const Portfolio: React.FC = () => {
               Mi portafolio
             </h2>
             <h3 className="text-4xl md:text-5xl font-black tracking-tight text-slate-900">
-              Seleccionado <span className="font-serif italic">Obras</span>
+              Obras <span className="font-serif italic">Seleccionadas</span>
             </h3>
           </div>
 

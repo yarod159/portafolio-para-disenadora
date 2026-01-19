@@ -23,7 +23,7 @@ const Hero: React.FC = () => {
           </h1>
           
           <p className="text-xl text-gray-600 max-w-lg leading-relaxed">
-             Ayudo a emprendedores y marcas personales a destacar en Instagram y TikTok con un diseño visual llamativo y vídeos cortos de alta conversión.
+             Ayudo a emprendedores y marcas personales a destacar en Instagram y TikTok con un diseño visual llamativo y vídeos cortos diseñados para captar y retener atención.
           </p>
           
           <div className="flex flex-wrap gap-4 mt-4">
@@ -49,8 +49,8 @@ const Hero: React.FC = () => {
             </div>
             <div className="w-px h-10 bg-gray-200"></div>
             <div>
-              <div className="text-3xl font-black">20+</div>
-              <div className="text-sm text-gray-500 font-medium">Vistas de vídeo</div>
+              <div className="text-3xl font-black">100%</div>
+              <div className="text-sm text-gray-500 font-medium">Enfoque en resultados</div>
             </div>
             <div className="w-px h-10 bg-gray-200"></div>
             <div>

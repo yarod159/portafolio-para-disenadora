@@ -17,10 +17,10 @@ const About: React.FC = () => {
             </div>
            
             <div className="absolute -bottom-10 -right-10 w-64 h-64 bg-purple-600 rounded-[3rem] -z-10 opacity-10 "></div>
-            <div className=" absolute top-1/2 -left-4 -translate-y-1/2 p-3 bg-white rounded-2xl shadow-xl z-20 border border-gray-100   sm:-left-10 sm:p-6 sm:rounded-2xl top-[80%] sm:top-1/2">
+            <div className=" absolute top-1/2 -left-4 -translate-y-1/2 p-3 bg-white  rounded-2xl shadow-xl z-20 border border-gray-100   sm:-left-10 sm:p-6 sm:rounded-2xl top-[80%] sm:top-1/2">
  
               <div className="text-4xl font-black text-purple-600 mb-1">+2</div>
-              <div className="text-xs font-black text-slate-500 uppercase tracking-widest leading-none">Años de diseño<br/>Experiencia</div>
+              <div className="text-xs font-black text-slate-500 uppercase leading-tight tracking-widest leading-none">Años de Experiencia <br/>en diseño</div>
             </div>
           </div>
 

@@ -1,7 +1,7 @@
 const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:3000/api/gemini';
 
 export async function generateIdeas(topic: string) {
-  console.log('Calling API:', API_URL);
+  
   
   const response = await fetch(API_URL, {
     method: 'POST',

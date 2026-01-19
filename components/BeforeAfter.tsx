@@ -37,7 +37,7 @@ const BeforeAfter: React.FC = () => {
               Impecable <span className="font-serif italic">Retoque</span>
             </h3>
             <p className="text-gray-500 text-lg mb-8 leading-relaxed">
-             Mediante técnicas avanzadas de retoque de alta gama, realzo los colores, corrijo imperfecciones y creo un aspecto de alta costura, al tiempo que mantengo la textura y los detalles naturales de la piel. </p>
+            Utilizo técnicas avanzadas de retoque profesional para realzar el color, corregir imperfecciones y lograr un acabado de alta gama, manteniendo siempre la textura y los detalles naturales de la piel</p>
             <ul className="space-y-4 mb-8">
               {['Retoque de piel', 'Gradación de color', 'Remodelación corporal', 'Limpieza de fondo'].map((item) => (
                 <li key={item} className="flex items-center gap-3 font-bold text-slate-700">
